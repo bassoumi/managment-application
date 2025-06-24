@@ -1,5 +1,4 @@
-🏷️ GestionDeStock – Angular CRUD Inventory Manager
-
+#🏷️ GestionDeStock – Angular CRUD Inventory Manager
 A modern single‑page application (SPA) that helps small businesses track their products, stock levels and suppliers. Built with Angular 17, TypeScript and a lightweight Node/JSON‑Server backend.
 
 
