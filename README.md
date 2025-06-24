@@ -18,24 +18,6 @@ Mock REST API – JSON‑Server + Express wrapper (server.ts) for local developm
 
 Deployment Ready – CI/CD via Vercel plus production build script.
 
-🛠 Tech Stack
-
-Layer
-
-Tech
-
-Front‑end
-
-Angular 17 • TypeScript • SCSS • Angular Material
-
-Back‑end (dev)
-
-Node.js • Express • JSON‑Server
-
-Tooling
-
-RxJS • ESLint • Prettier • Husky • Commitlint
-
 🚀 Getting Started
 
 # 1. Clone the repo
