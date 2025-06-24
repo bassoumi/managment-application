@@ -1,29 +1,125 @@
-# GestionDesStock
+🏷️ GestionDeStock – Angular CRUD Inventory Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
+A modern single‑page application (SPA) that helps small businesses track their products, stock levels and suppliers. Built with Angular 17, TypeScript and a lightweight Node/JSON‑Server backend.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+🔑 Key Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Product CRUD – add, edit, delete and view detailed product information.
 
-## Build
+Instant Search & Sorting – filter inventory by SKU, name, category or quantity in real‑time.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Responsive UI – fully mobile‑friendly layout built with Angular Material & Flex‑Layout.
 
-## Running unit tests
+Reusable Services – clean architecture with feature modules, smart/dumb components and RxJS.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Mock REST API – JSON‑Server + Express wrapper (server.ts) for local development.
 
-## Running end-to-end tests
+Deployment Ready – CI/CD via Vercel plus production build script.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+🛠 Tech Stack
 
-## Further help
+Layer
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-"# Angular-CRUD-APP-" 
-"# Angular-Crud-app-GestionDeStock" 
+Tech
+
+Front‑end
+
+Angular 17 • TypeScript • SCSS • Angular Material
+
+Back‑end (dev)
+
+Node.js • Express • JSON‑Server
+
+Tooling
+
+RxJS • ESLint • Prettier • Husky • Commitlint
+
+🚀 Getting Started
+
+# 1. Clone the repo
+git clone https://github.com/bassoumi/managment-application.git
+cd managment-application
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the mock API
+npm run backend        
+
+# 4. Start the Angular dev server
+npm start              
+
+Scripts
+
+Command
+
+Description
+
+npm start
+
+Run SPA in dev mode
+
+npm run backend
+
+Launch JSON‑Server API
+
+npm run build
+
+Production build in /dist
+
+npm run lint
+
+Lint and fix code style
+
+🗂️ Project Structure
+
+src/
+├── app/
+│   ├── core/       
+│   ├── shared/     
+│   └── features/
+│       └── products/
+│           ├── components/
+│           ├── pages/
+│           └── products-routing.module.ts
+├── assets/
+└── environments/
+
+🧪 Testing
+
+Unit: ng test with Karma + Jasmine
+
+E2E: ng e2e (Cypress or Playwright ready)
+
+📈 Roadmap
+
+✅ CRUD for products
+
+⏳ Categories & suppliers module
+
+⏳ Dashboard with charts (D3 / Ngx‑Charts)
+
+⏳ Authentication & role‑based access
+
+🤝 Contributing
+
+Fork the project
+
+Create your feature branch (git checkout -b feat/amazing-feature)
+
+Commit your changes (git commit -m 'feat: amazing feature')
+
+Push to the branch (git push origin feat/amazing-feature)
+
+Open a pull request
+
+Please follow our code of conduct and make sure your commits follow the Conventional Commits spec.
+
+📜 License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+Made with ❤️ by Elyes Bassoumi
+
